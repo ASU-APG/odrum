@@ -11,6 +11,7 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size: 14px;
+	max-width: 1200px;
 }
 /* Container */
 .container {
@@ -62,6 +63,7 @@ a.papertitle {
 	padding-top: 0px;
 	margin-top: -5px;
 	margin-bottom: 0px;
+	text-align:  justify;
 }
 .thumbnail {
 	/*max-width: 400px;*/
