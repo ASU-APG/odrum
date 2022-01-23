@@ -66,7 +66,7 @@ a.papertitle {
 	text-align:  justify;
 }
 .thumbnail {
-	min-width: 100px;
+	/*min-width: px;*/
 	text-align: justify;
 	display: inline-block;
 	padding-bottom: 20px;
@@ -126,7 +126,7 @@ a.papertitle {
 
 .thumbnail2 {
 	max-width: 750px;
-	min-width: 100px;
+	/*min-width: 100px;*/
 	text-align: center;
 	float: center;
 	margin-top: 15px;
