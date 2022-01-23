@@ -2,26 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <meta name="author" content="Tejas Gokhale">
   <title>O-DRUM CVPR 2022</title>
   <link rel="stylesheet" type="text/css" href="css/simpleGridTemplate.css">
   <link rel="icon" type="image/png" href="images/odrum_logo.png">
-
-
   <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
-
   <meta name="mobile-web-app-capable" content="yes">
-
-  <meta property="og:locale" content="en_US">
-  <meta property="og:url" content="https://tejas-gokhale.github.io/">
-  <meta property="og:site_name" content="papers">
-  <link rel="canonical" href="https://tejas-gokhale.github.io/">
-  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="icon" href="./favicon.png" type="image/png" />
-  <link rel="manifest" href="./manifest.json">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon-180.png">
-  <link type="application/opensearchdescription+xml" rel="search" href="./search.xml"/>
   <style>
     body {
       overflow-y: scroll;
@@ -46,9 +36,16 @@
 </head>
 
 <body>
-  <h1 style="text-align:center; font-weight:600;">O-DRUM @ CVPR 2022</h1>
-  <h1 style="text-align:center; font-weight:400;">Workshop on Open-Domain Retrieval Under a Multi-Modal Setting</h1>
-  <h2 style="text-align:center;"> in conjunction with CVPR 2022, New Orleans, June 19-24</h2>
+  <table>
+    <tr>
+      <td><img src="images/drum.png"  height=200px></td>
+      <td>
+        <h1 style="text-align:center; font-weight:600;">O-DRUM @ CVPR 2022</h1>
+        <h1 style="text-align:center; font-weight:400;">Workshop on Open-Domain Retrieval Under a Multi-Modal Setting</h1>
+        <h2 style="text-align:center;"> in conjunction with CVPR 2022, New Orleans, June 19-24</h2>
+      </td>
+    </tr>
+  </table>
   <hr>
   <div class="thumbnail">
     <p style="font-size: 16px;">
@@ -58,111 +55,174 @@
       Many datasets and IR algorithms have been developed to deal with input queries from a single modality, such as for document retrieval from text queries, image retrieval from text queries, text retrieval form video queries, etc. 
       However, in many cases, the query may be multi-modal, for instance an image of a milkshake and a complementary textual description “restaurants near me” should return potential matches of nearby restaurants serving milkshakes. Similarly, a patient may be able to present signs such as swelling using photographs and symptoms such as fever using language. 
       Such functionality is desirable in situations where each modality communicates partial, yet vital information about the required output.
-      The proposed workshop, titled “Open-Domain Retrieval Under a Multi-Modal Setting” seeks to address this emerging topic area of research. 
+       
     </p>
     <p style="font-size: 16px;">
-      The workshop aims to bring together prominent researchers from information retrieval, natural language processing (NLP), computer vision (CV) and knowledge representation and reasoning (KRR). 
-      The aim of this workshop is to address the relatively nascent direction of information retrieval with queries that may come from multiple modalities (such as text, images, videos, audio, etc.), or multiple formats (paragraphs, tables, charts, etc.). 
+      O-DRUM 2022 seeks to address this emerging topic area of research.
+      The workshop aims to bring together researchers from information retrieval, natural language processing, computer vision, and knowledge representation and reasoning to address information retrieval with queries that may come from multiple modalities (such as text, images, videos, audio, etc.), or multiple formats (paragraphs, tables, charts, etc.). 
     </p>
 
     <h1> Call for Papers </h1>
     <p style="font-size: 16px;">
-      We invite submissions related to the broad topic area of multi-modal retrieval, including retrieval from multi-modal queries and retrieval of multi-modal information.  We encourage submissions of the following types:
+      We invite submissions related to the broad topic area of multi-modal retrieval, including but not limited to the following topic areas:
       <ul style="font-size: 16px;">
-        <li>extended abstracts of novel work (2 pages + references), </li>
-        <li>shorter versions of novel as well as previously published work (4 pages + references), or </li>
-        <li> previously accepted long papers (including those at CVPR 2022).  </li>
-      </ul>
-    </p>
-    <p style="font-size: 16px;">
-      All submissions should be formatted using the CVPR 2022 template found in the <a href="https://cvpr2022.thecvf.com/author-guidelines">submission guidelines</a>. Accepted papers will be presented as posters during the workshop, where attendees, invited speakers and organizers can engage in discussion.
-    </p>
-    <p style="font-size: 16px;">
-      Prospective topic areas include:
-      <ul style="font-size: 16px;">
+        <li>retrieval from multi-modal queries or retrieval of multi-modal information.</li>
         <li>New datasets or task design for open-domain retrieval from multi-modal queries, and multi-modal reasoning requiring external knowledge.</li>
         <li>Modification, augmentation of existing benchmarks such as OK-VQA, VisualNews, Web-QA, etc. </li>
         <li>Commentary and analysis on evaluation metrics in IR tasks, and proposals for new evaluation metrics.</li>
         <li>New methods and empirical results for multi-modal retrieval</li>
         <li>Faster, efficient, or scalable algorithms for retrieval.</li>
         <li>Methods which learn from web data and knowledge bases by retrieval, rather than from fixed sources.</li>
-        <li>Retrieval methods aiding other tasks such as image and video captioning, visual grounding, or VQA.</li>
+        <li>Retrieval methods aiding other tasks such as image and video captioning, visual grounding, VQA, image generation, graphics, etc.</li>
+        <li>Use of Retrieval as a means for data augmentation/data generation in unsupervised/few-shot/zero-shot learning.
       </ul>
 
     </p>
+      We encourage submissions of two types:
+      <ul style="font-size: 16px;">
+        <li>Extended abstracts of novel/previously published work (4 pages including references), </li>
+        <li>LONG papers (8 pages + references) that havce been previously accepted in venues such as CVF conferences, *ACL, NeurIPS, ICML, ICLR, AAAI, IJCAI, etc., including papers accepted to CVPR 2022. 
+      </ul>
+    </p>
+    <p style="font-size: 16px;">
+      All submissions should be formatted using the <a href="https://cvpr2022.thecvf.com/author-guidelines">CVPR 2022 template</a>. 
+      Accepted papers will be presented as posters during the workshop, where attendees, invited speakers and organizers can engage in discussion.
+      We plan to highlight the best 3 papers via spotlight talks during the workshop session.
+      <br><br>
+      <!-- We encourage submissions of work that has been previously published (in venues such as CVF conferences, *ACL, NeurIPS, ICML, ICLR, AAAI, IJCAI, etc.), including papers accepted to CVPR 2022.  -->
+      Accepted abstracts are considered non-archival and can be submitted to later conferences, and will be distributed on <a href="https://openaccess.thecvf.com/">CVPR workshop proceedings</a> and on this website.
+   
     <h1> Invited Speakers </h1>
-    <i>Coming Soon ... </i>
+    <table>
+      <tr>
+        <td class="person" style="text-align: center;">
+          <img src="images/danqi.jpg" height="140px" width="140px" class="rounded-corner">
+        </td>
+        <td>
+          <a href="https://www.cs.princeton.edu/~danqic/"><b>Danqi Chen</b></a>
+          <br>Princeton University
+          <br><br><a href="https://www.cs.princeton.edu/~danqic/">Website</a>
+        </td>
+        <td>
+          Dr Chen is an assistant professor of Computer Science at Princeton University and co-lead of the Princeton NLP Group. 
+          She is also part of the larger Princeton AIML group and affiliated with Princeton Center for Statistics and Machine Learning (CSML).
+          Her broad interests are in in natural language processing and machine learning, and her research is mostly driven by two goals:
+          (1) developing effective and fundamental methods for learning representations of language and knowledge, and their interplay, and
+          (2) building practical systems including question answering, information extraction and conversational agents.
+      </tr>
+      <tr>
+        <td class="person" style="text-align: center;">
+          <img src="images/diane.jpg" height="140px" width="140px" class="rounded-corner">
+        </td>
+        <td width="20%">
+          <a href="https://dlarlus.github.io/"><b>Diane Larlus</b></a>
+          <br>NAVER Labs Europe
+          <br><br><a href="https://dlarlus.github.io/">Website</a>
+        </td>
+        <td>
+          Dr Larlus is a Principal research scientist at Naver Labs Europe working on computer vision and machine learning, and a
+          chair holder on Life-long representation learning within the MIAI AI research institute of Grenoble, working towards a semantic understanding of visual scenes.
+          Her current interests are in lifelong learning, continual domain adaptation, and instance-level, semantic, and cross-modal visual search.
+        </td>
+      </tr>
+      <tr>
+        <td class="person" style="text-align: center;">
+          <img src="images/mohit.png" height="140px" width="140px" class="rounded-corner">
+        </td>
+        <td>
+          <a href="https://www.cs.unc.edu/~mbansal/"><b>Mohit Bansal</b></a>
+          <br>University of North Carolina
+          <br><br><a href="https://www.cs.unc.edu/~mbansal/">Website</a>
+        </td>
+        <td>
+          Dr. Bansal is the John R. & Louise S. Parker Associate Professor and the Director of the MURGe-Lab (in the UNC-NLP Group) in the Computer Science department at the UNC Chapel Hill. 
+          His research expertise is in statistical natural language processing and machine learning, with a particular focus on multimodal, grounded, and embodied semantics (i.e., language with vision and speech, for robotics), human-like language generation and Q&A/dialogue, and interpretable and generalizable deep learning.
+        </td>
+        <i>Stay tuned for more updates</i>
+    </table>
 
     <h1> Organizers </h1>
-
     <div class="container">
       <div class="hosts">
         <table align="center">
           <tr>
             <td class="person" style="text-align: center;">
-              <img src="images/cbaral.png" height="140px" width="140px" class="rounded-corner"></a>
-              <br><a href="https://www.public.asu.edu/~cbaral/"><b>Chitta Baral</b></a>
-              <br>ASU
+              <a href="https://www.public.asu.edu/~cbaral/">
+                <img src="images/cbaral.png" height="140px" width="140px" class="rounded-corner">
+                <br><b>Chitta Baral</b></a>
+                <br>ASU<br>
             </td>
             <td class="person" style="text-align: center;">
-              <img src="images/damien.png" height="140px" width="140px" class="rounded-corner"></a>
-              <br><a href="https://www.damienteney.info/"><b>Damien Teney</b></a>
-              <br>Idiap Research Institute
+              <a href="https://www.damienteney.info/">
+                <img src="images/damien.png" height="140px" width="140px" class="rounded-corner">
+                <br><b>Damien Teney</b></a>
+                <br>Idiap 
             </td>
             <td class="person" style="text-align: center;">
-              <img src="images/kenny.PNG" height="140px" width="140px" class="rounded-corner"></a>
-              <br><a href="http://kennethmarino.com/"><b>Kenneth Marino</b></a>
+              <a href="http://kennethmarino.com/">
+                <img src="images/kenny.PNG" height="140px" width="140px" class="rounded-corner">
+              <br><b>Kenneth Marino</b></a>
               <br>Deepmind
             </td>
             <td class="person" style="text-align: center;">
-              <img src="images/man.jpg" height="140px" width="140px" class="rounded-corner"></a>
-              <br><a href="https://luomancs.github.io/"><b>Man Luo</b></a>
+              <a href="https://luomancs.github.io/">
+                <img src="images/man.jpg" height="140px" width="140px" class="rounded-corner">
+              <br><b>Man Luo</b></a>
               <br>ASU
             </td>
             <td class="person" style="text-align: center;">
-              <img src="images/pratyay.jpg" height="140px" width="140px" class="rounded-corner"></a>
-              <a href="https://pratyay-banerjee.github.io/"><b>Pratyay Banerjee</b></a>
+              <a href="https://pratyay-banerjee.github.io/">
+                <img src="images/pratyay.jpg" height="140px" width="140px" class="rounded-corner">
+              <b>Pratyay Banerjee</b></a>
               <br>ASU
             </td>
             <td class="person" style="text-align: center;">
-              <img src="https://adityasomak.github.io/authors/admin/avatar_hu2b9e2ef8b059e2052408d3b1a09de986_458579_250x250_fill_q90_lanczos_center.jpg" height="140px" width="140px" class="rounded-corner"></a>
-              <a href="https://adityasomak.github.io/"><b>Somak Aditya</b></a>
+              <a href="https://adityasomak.github.io/">
+                <img src="images/somak.jpg" height="140px" width="140px" class="rounded-corner">
+              <b>Somak Aditya</b></a>
               <br>IIT Kharagpur
             </td>
           </tr>
           <tr>
             <td class="person" style="text-align: center;">
-              <img src="images/tg_okc.jpg" height="140px" width="140px" class="rounded-corner"></a>
-              <a href="https://tejas-gokhale.github.io/"><b>Tejas Gokhale</b></a>
+              <a href="https://tejas-gokhale.github.io/">
+                <img src="images/tg_okc.jpg" height="140px" width="140px" class="rounded-corner">
+              <b>Tejas Gokhale</b></a>
               <br>ASU
             </td>
             <td class="person" style="text-align: center;">
-              <img src="images/tianlu.PNG" height="140px" width="140px" class="rounded-corner"></a>
-              <a href="https://tianlu-wang.github.io/"><b>Tianlu Wang</b></a>
+              <a href="https://tianlu-wang.github.io/">
+                <img src="images/tianlu.PNG" height="140px" width="140px" class="rounded-corner">
+              <b>Tianlu Wang</b></a>
               <br>Facebook AI Research
             </td>
             <td class="person" style="text-align: center;">
-              <img src="images/yezhou.png" height="140px" width="140px" class="rounded-corner"></a>
-              <a href="https://yezhouyang.engineering.asu.edu/"><b>Yezhou Yang</b></a>
+              <a href="https://yezhouyang.engineering.asu.edu/">
+                <img src="images/yezhou.png" height="140px" width="140px" class="rounded-corner">
+              <b>Yezhou Yang</b></a>
               <br>ASU
             </td>   
             <td class="person" style="text-align: center;">
-              <img src="images/jacob.jpg" height="140px" width="140px" class="rounded-corner"></a>
-              <a href="https://www.public.asu.edu/~zfang29/"><b>Zhiyuan Fang</b></a>
+              <a href="https://www.public.asu.edu/~zfang29/">
+                <img src="images/jacob.jpg" height="140px" width="140px" class="rounded-corner">
+              <b>Zhiyuan Fang</b></a>
               <br>ASU
             </td>
                      
             <td class="person" style="text-align: center;">
-              <img src="https://zhegan27.github.io/images/Zhe_new.jpg" height="140px" width="140px" class="rounded-corner"></a>
-              <br><a href="https://zhegan27.github.io/"><b>Zhe Gan</b></a>
+              <a href="https://zhegan27.github.io/">
+                <img src="https://zhegan27.github.io/images/Zhe_new.jpg" height="140px" width="140px" class="rounded-corner">
+              <br><b>Zhe Gan</b></a>
               <br>Microsoft
             </td>
-            <
-            
-            
           </tr>
         </table>
+
       </div>
+      <hr>
+      Please contact Man Luo (<a href="mailto: mluo26@asu.edu">mluo26@asu.edu</a>) or Tejas Gokhale (<a href="mailto: tgokhale@asu.edu">tgokhale@asu.edu</a>) for additional details
+      <hr>
+      <i> The workshop is supported by NSF grant 2132724 as part of Research, Education, and Outreach activities. </i>
       <hr>
       <p align='right'><i>Website maintained by Tejas Gokhale </i> </p>
 
