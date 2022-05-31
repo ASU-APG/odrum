@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#000;
 	padding-bottom: 50px;
 	padding-top: 4px;
@@ -380,6 +380,29 @@ span.highlight {
 }
 .alignright {
 	float: right;
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+table.title {
+	border:  None;
+}
+td.title {
+	border:  None;
+}
+tr.title {
+	border:  None;
+}
+
+table.person {
+	border:  None;
+}
+td.person {
+	border:  None;
+}
+tr.person {
+	border:  None;
 }
 
 @media print{
