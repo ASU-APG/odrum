@@ -28,11 +28,12 @@ header {
 	border-bottom: 1px solid #353635;
 }
 
-ul,ol{ margin-top:0; margin-bottom:0 }
+ul,ol{ margin-top:0; margin-bottom:0; list-style-position: outside;
+}
 
 li
 {
-    list-style-position:inside;
+    list-style-position:outside;
 }
 a {
   color: #1772d0;
