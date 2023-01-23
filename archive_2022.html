@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="author" content="Tejas Gokhale">
+  <title>O-DRUM CVPR 2022</title>
+  <link rel="stylesheet" type="text/css" href="css/simpleGridTemplate.css">
+  <link rel="icon" type="image/png" href="images/drum.png">
+  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" href="./favicon.png" type="image/png" />
+  <style>
+    body {
+      overflow-y: scroll;
+    }
+    .markdown-body h1 {
+      display: flex;
+    }
+    .markdown-body form {
+      margin-left: 10px;
+    }
+    .markdown-body input {
+      margin: 0;
+      padding: 0 10px;
+      border: 1px solid #eaecef;
+      border-radius: 3px;
+      width: 100%;
+      flex: 1 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="thumbnail" align="center">
+    <table class="title">
+      <tr class="title">
+        <td class="title" style="text-align: center;"><img src="images/drum.png"  height=200px></td>
+        <td class="title">
+          <h1 style="text-align:center; font-weight:600;">O-DRUM @ CVPR 2022</h1>
+          <h1 style="text-align:center; font-weight:400;">Workshop on Open-Domain Retrieval Under Multi-Modal Settings</h1>
+          <h3 style="text-align:center;"> in conjunction with CVPR 2022, New Orleans, June 20</h3>
+          <h3 style="text-align:center;"> Room 239, Ernest M Morial Convention Center</h3>
+          <br/>
+          <h2 style="text-align:center;">Video Recording: <a href="https://youtu.be/vxizyhlTRLU"> YouTube </a></h2>
+
+        </td>
+      </tr>
+    </table>
+    <hr>
+    <p>
+      Information Retrieval (IR) is an essential aspect of the internet era and improvements in IR algorithms directly lead to a better search experience for the end-user. 
+      IR also serves as a vital component in many natural language processing tasks such as open-domain question answering and knowledge and commonsense-based question answering, 
+      Recent advances in visual representation learning have also enabled image retrieval applications that have become a vital part of knowledge-based and commonsense visual question answering.
+      Many datasets and IR algorithms have been developed to deal with input queries from a single modality, such as for document retrieval from text queries, image retrieval from text queries, text retrieval form video queries, etc. 
+      However, in many cases, the query may be multi-modal, for instance an image of a milkshake and a complementary textual description “restaurants near me” should return potential matches of nearby restaurants serving milkshakes. 
+      Similarly, sick patients may be able to input their signs and symptoms (for instance photographs of swelling and natural lanaguage descriptions of fever) in order to retrieve more information about their condition. 
+      Such functionality is desirable in situations where each modality communicates partial, yet vital information about the required output.
+    </p>
+    <p>
+      O-DRUM 2022 seeks to address this emerging topic area of research.
+      The workshop aims to bring together researchers from information retrieval, natural language processing, computer vision, and knowledge representation and reasoning to address information retrieval with queries that may come from multiple modalities (such as text, images, videos, audio, etc.), or multiple formats (paragraphs, tables, charts, etc.). 
+    </p>
+
+        <h1> Schedule</h1>
+    <!-- <i>Schedule coming soon. </i> -->
+    <table class="border">
+      <tr class="border">
+        <td class="border" style="white-space:nowrap"> 0800 - 0820 CDT</td>
+        <td></td><td></td>
+        <td> Welcome and Introductory Remarks </td>
+        <td> Man Luo / Tejas Gokhale </td>
+      </tr>
+      </tr>
+        <td style="white-space:nowrap"> 0820 - 0855 CDT</td>
+        <td style="text-align: center;">
+          <img src="images/danqi.jpg" height="140px" width="140px" class="rounded-corner">
+        </td>
+        <td>
+          <a href="https://www.cs.princeton.edu/~danqic/"><b>Danqi Chen</b></a>
+          <br>Princeton University
+          <!-- <br><br><a href="https://www.cs.princeton.edu/~danqic/">Website</a> -->
+        </td>
+        <td>
+          Dr Chen is an Assistant professor of Computer Science at Princeton University and co-lead of the Princeton NLP Group. 
+          She is also part of the larger Princeton AIML group and affiliated with Princeton Center for Statistics and Machine Learning (CSML).
+          Her broad interests are in in natural language processing and machine learning, and her research is mostly driven by two goals:
+          (1) developing effective and fundamental methods for learning representations of language and knowledge, and their interplay, and
+          (2) building practical systems including question answering, information extraction and conversational agents.
+        </td>
+        <td>
+          <b>Learning Representations for Text Retrieval: What we Learned</b>
+        </td>
+      </tr>
+
+      <tr>
+        <td> 0855 - 0930 CDT</td>
+        <td style="text-align: center;">
+          <img src="images/xin.jpg" height="140px" width="140px" class="rounded-corner">
+        </td>
+        <td>
+          <a href="https://eric-xw.github.io/"><b>Xin (Eric) Wang </b></a>
+          <br>University of California, Santa Cruz
+          <!-- <br><br><a href="https://eric-xw.github.io/">Website</a> -->
+        </td>
+        <td>
+          Dr. Wang is an Assistant Professor of Computer Science and Engineering at UC Santa Cruz. 
+          His research interests include Natural Language Processing, Computer Vision, and Machine Learning, with an emphasis on building embodied AI agents that can communicate with humans using natural language to perform real-world multimodal tasks. 
+        </td>
+        <td>
+          <b> (Multilingual) Fairness in Vision-and-Language Models</b>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="white-space:nowrap"> 0930 - 1030 CDT</td>
+        <td></td><td></td>
+        <td> Coffee Break and Poster Session </td>
+      </tr>
+
+      <tr>
+        <td>1030 - 1105 CDT</td>
+        <td style="text-align: center;">
+          <img src="images/hao.jfif" height="140px" width="140px" class="rounded-corner">
+        </td>
+        <td>
+          <a href="https://www.cs.unc.edu/~airsplay/"><b>Hao Tan</b></a>
+          <br>Adobe Research
+          <!-- <br><br><a href="https://www.cs.unc.edu/~airsplay/">Website</a> -->
+        </td>
+        <td>
+          Dr. Tan is a Research Scientist at Adobe Research.
+          He completed his PhD in 2021 from the University of North Carolina, advised by Mohit Bansal. He is broadly interested in vision and language research. His PhD dissertation made significant contributions to assigning language meaning to visual concepts, including cross-modal representation learning, cross-modal retrieval, and visual/language grounding.
+        </td>
+        <td>
+          <b> From Neural Encoders to the Neural Retriever</b>
+          <br>
+          <i>Multimodal retrieval is about estimating relevance. Encoder-based method uses separate encoders and then calculates the relevance score based on vector similarity. It is efficient but shows a performance gap to the slower cross-modal approach, which explicitly models the multimodal interactions. In this talk, I will present the ways to enhance the retrieval model in the past (through knowledge distillation), for now (through implicit cross-modal modules), and in the future (rebuild the traditional retrieval pipeline with neural networks).</i>
+        </td>
+      </tr>
+
+
+
+      <tr>
+        <td>1105 - 1140 CDT</td>
+        <td style="text-align: center;">
+          <img src="images/diane.jpg" height="140px" width="140px" class="rounded-corner">
+        </td>
+        <td width="20%">
+          <a href="https://dlarlus.github.io/"><b>Diane Larlus</b></a>
+          <br>NAVER Labs Europe
+          <!-- <br><br><a href="https://dlarlus.github.io/">Website</a> -->
+        </td>
+        <td>
+          Dr Larlus is a Principal Research Scientist at Naver Labs Europe working on computer vision and machine learning, and a
+          chair holder on Life-long representation learning within the MIAI AI research institute of Grenoble, working towards a semantic understanding of visual scenes.
+          Her current interests are in lifelong learning, continual domain adaptation, and instance-level, semantic, and cross-modal visual search.
+        </td>
+        <td>
+          <b>Using Text in Computer Vision</b>
+          <br>
+          <i>Many computer vision tasks, including open-domain retrieval, become easier to tackle if some companion text is available, at train or at test time. In the first part of this talk, we will see how, using relatively small sets of captioned images, one can train effective visual representations from scratch. In a second part, we will consider several flavors of image retrieval, and discuss how each flavor can be tackled and even enhanced using textual information.</i>
+        </td>
+      </tr>
+
+      <tr>
+        <td> 1140 - 1215 CDT</td>
+        <td style="text-align: center;">
+          <img src="images/ani.jpg" height="140px" width="140px" class="rounded-corner">
+        </td>
+        <td>
+          <a href="https://anikem.github.io/"><b>Aniruddha Kembhavi</b></a>
+          <br>Allen Institute for AI
+          <!-- <br><br><a href="https://anikem.github.io/">Website</a> -->
+        </td>
+        <td>
+          Dr. Kembhavi leads PRIOR, the computer vision team at the Allen Institute for AI.
+          He is also an Affiliate Associate Professor at the Computer Science & Engineering department at the University of Washington.
+          His research interests are in research problems at the intersection of vision, language, and embodiment.
+        </td>
+        <td>
+          <b> Towards General Purpose Vision </b>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td style="white-space:nowrap"> 1215 -- 1300 CDT</td>
+        <td></td><td></td>
+        <td>
+          Spotlight Talks and Q&A:
+          <ul>
+            <li><i>Niv Cohen et al.</i>, "This is my unicorn, Fluffy": Personalizing frozen vision-language representations <a href="./spotlight/Fluffy_CVPR_5min.pdf">[slides]</a></li>
+            <li><i>Guillaume Couairon et al.</i>, Embedding Arithmetic of Multimodal Queries for Image Retrieval <a href="./spotlight/embedding_arithmetic_slides.pdf">[slides]</a></li>
+            <li><i>Marco Bertini et al. </i>, Conditioned and composed image retrieval combining and partially fine-tuning CLIP-based features <a href="./spotlight/ODRUM_Slides_11.pdf">[slides]</a></li>
+            <li><i>Yue Yang et al.</i>, Induce, Edit, Retrieve: Language Grounded Multimodal Schema for Instructional Video Retrieval <a href="./spotlight/IER_slides.pdf">[slides]</a></li>
+          </ul>
+        </td>
+      </tr>
+      
+      </tr>
+      
+    </table>
+
+    <h1> Accepted Papers</h1>
+    The Proceedings are available via the <a href="https://openaccess.thecvf.com/CVPR2022_workshops/ODRUM">CVF Open Access website </a>. All workshop papers are also available below.
+    <br><br>
+    <ul style="list-style-position: outside;">
+      <li>
+        Conditioned and composed image retrieval combining and partially fine-tuning CLIP-based features <br>
+        <i>Alberto Baldrati (Università degli Studi di Firenze); Marco Bertini (University of Florence)*; Tiberio Uricchio (University of Florence); Alberto Del Bimbo (University of Florence)</i>
+      <br><a href="./posters/ODRUM_Poster_11.pdf">[poster]</a></li>
+      <li>
+        Cross Modal Retrieval with Querybank Normalisation  <br>
+        <i>Simion-Vlad Bogolin (Institute of Mathematics of the Romanian Academy); Ioana Croitoru (Institute of Mathematics of the Romanian Academy)*; Hailin Jin (Adobe Research); Yang Liu (Peking University); Samuel Albanie (University of Cambridge)</i>
+      <br><a href="./posters/CVPR22_QB_Norm_Poster">[poster]</a></li>
+      <li>
+        Cross-modal Target Retrieval for Tracking by Natural Language <br>
+        <i>Yihao Li (University of Science and Technology of China)*; Jun Yu (University of Science and Technology of China); Zhongpeng Cai (University Of Science And Technology Of China); Yuwen Pan (University of Science and Technology of China)</i>
+      <br><a href="./posters/O-DRUM@CVPR2022-Poster.pdf">[poster]</a></li>
+      <li>
+        Deep Image Retrieval is not Robust to Label Noise <br>
+        <i>Stanislav Dereka (Tinkoff)*; Ivan A Karpukhin (Tinkoff); Sergey Kolesnikov (Tinkoff)</i>
+      <br><a href="./posters/cvpr22_poster.pdf">[poster]</a></li>
+      <li>
+        Deep Normalized Cross-Modal Hashing with Bi-Direction Relation Reasoning <br>
+        <i>Changchang Sun (Illinois Institute of Technology)*; Hugo M Latapie (Cisco); Gaowen Liu (Cisco Research); Yan Yan (Illinois Institute of Technology)</i>
+      <br><a href="./posters/ODRUM_Poster_Submission_Paper_8.pdf">[poster]</a></li>
+      <li>
+        Embedding Arithmetic of Multimodal Queries for Image Retrieval  
+        <br><i>Guillaume Couairon (Facebook AI Research)*; Matthijs Douze (Facebook AI Research); Matthieu Cord (Sorbonne University); Holger Schwenk (Facebook AI Research)</i>
+      <br><a href="./posters/simat_poster.pdf">[poster]</a></li>
+      <li>
+        Good, Better, Best: Textual Distractors Generation for Multiple-Choice Visual Question Answering via Reinforcement Learning 
+        <br><i>Jiaying Lu (Emory Univesity)*; Xin Ye (Arizona State University); Yi Ren (Arizona State University); Yezhou Yang (Arizona State University)</i>
+      <br><a href="./posters/ODRUM_Poster_Submission_Paper_1.pdf">[poster]</a></li>
+      <li>
+        How Do You Do It? Fine-Grained Action Understanding with Pseudo-Adverbs 
+        <br><i>Hazel Doughty (University of Amsterdam)*; Cees Snoek (University of Amsterdam)</i>
+      <br><a href="./posters/PseudoAdverbsPoster.pdf">[poster]</a></li>
+      <li>
+        Induce, Edit, Retrieve: Language Grounded Multimodal Schema for Instructional Video Retrieval 
+        <br><i>Yue Yang (University of Pennsylvania)*; Joongwon Kim (University of Pennsylvania); Artemis Panagopoulou (University of Pennsylvania  ); Mark Yatskar (UPenn); Chris Callison-Burch (University of Pennsylvania)</i>
+      <br><a href="./posters/IER_poster.pdf">[poster]</a></li>
+      <li>
+        Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning 
+        <br><i>Weixin Liang (Stanford University); Yuhui Zhang (Stanford University)*; Yongchan Kwon (Stanford University); Serena Yeung (Stanford University); James Zou (Stanford University)</i>
+      <br><a href="/posters/cvpr_poster_42x84.pdf">[poster]</a></li>
+      <li>
+      Object Prior Embedded Network for Query-Agnostic Image Retrieval  
+      <br><i>Yikang  Li (OPPO US Research Center)*; Jenhao Hsiao (OPPO US Research Center); Chiuman Ho (OPPO US R&D)</i>
+      <br><a href="./posters/ODRUM22_poster_paper12.pdf">[poster]</a></li>
+      <li>
+        "This is my unicorn, Fluffy": Personalizing frozen vision-language representations 
+        <br><i> Niv Cohen (The Hebrew University of Jerusalem)*; Rinon Gal (Tel Aviv University); Eli Meirom (NVIDIA Research); Gal Chechik (NVIDIA); Yuval Atzmon (NVIDIA Research)</i>
+      <br><a href="">[poster]</a></li>
+      <li>
+        Weakly Supervised Temporal Sentence Grounding with Gaussian-based Contrastive Proposal Learning 
+        <br><i>Minghang Zheng (Peking University)*; Yanjie Huang (Beijing Institute of Technology); Qingchao Chen (Peking University); Yuxin Peng (Peking University); Yang Liu (Peking University)</i>
+      <br><a href="">[poster]</a></li>
+
+    </ul>
+
+    <br> 
+    <h1> Call for Papers </h1>
+    <p>
+      We invite submissions related to the broad topic area of multi-modal retrieval, including but not limited to the following topic areas:
+      <ul>
+        <li>Retrieval from multi-modal queries or retrieval of multi-modal information.</li>
+        <li>New datasets or task design for open-domain retrieval from multi-modal queries, and multi-modal reasoning requiring external knowledge.</li>
+        <li>Modification, augmentation of existing benchmarks such as OK-VQA, VisualNews, Web-QA, etc. </li>
+        <li>Commentary and analysis on evaluation metrics in IR tasks, and proposals for new evaluation metrics.</li>
+        <li>New methods and empirical results for multi-modal retrieval</li>
+        <li>Faster, efficient, or scalable algorithms for retrieval.</li>
+        <li>Methods which learn from web data and knowledge bases by retrieval, rather than from fixed sources.</li>
+        <li>Retrieval methods aiding other tasks such as image and video captioning, visual grounding, VQA, image generation, graphics, etc.</li>
+        <li>Use of Retrieval as a means for data augmentation/data generation in unsupervised/few-shot/zero-shot learning.</li>
+      </ul>
+    </p>
+    <p>
+      We encourage submissions of two types:
+      <ul>
+        <li>Extended abstracts (4 pages + unlimited references).
+        <li>Long papers (maximum of 8 pages + unlimited references).
+      </ul>
+      <!-- <b>Important Note:</b> To be included in CVPR proceedings, a long paper (more than four pages excluding references) should not be previously published, currently under review, and cannot be resubmitted to another venue after appearing in CVPR proceedings.   -->
+      <!-- If your have a long paper which has not been previously published, and it is accepted into O-DRUM, you can choose to include/exclude from CVPR proceedings. -->
+    </p>
+    <p>
+      Submissions should be anonymized and formatted using the <a href="https://cvpr2022.thecvf.com/author-guidelines">CVPR 2022 template</a>. 
+      Accepted papers will be presented as posters during the workshop, where attendees, invited speakers and organizers can engage in discussion.
+      We plan to highlight the best 3 papers via spotlight talks during the workshop session.
+      <!-- All eligible papers (see note above for long papers) will be included in CVPR workshop proceedings. -->
+      We will give authors of all accepted papers an option to opt-in or opt-out of CVPR proceedings.
+      
+      <!-- We encourage submissions of work that has been previously published (in venues such as CVF conferences, *ACL, NeurIPS, ICML, ICLR, AAAI, IJCAI, etc.), including papers accepted to CVPR 2022.  -->
+    </p>
+
+    <!-- <div style="background-color: lightgrey; padding: 8px;border: 4px solid red;"> -->
+      <h3>Important Dates:</h3>
+      <table>
+        <tr>
+          <td>&diams; <i>Submission Deadline:</i></td><td>April 08, 2022 (Friday), 23:59 PDT</td>
+        </tr>
+        <tr>
+          <td>&diams; <i>Notification of Decision:</i></td><td>2nd week of April</td>
+        </tr>
+        <tr>
+          <td>&diams; <i>Camera Ready Deadline:</i></td><td>April 19, 2022 (Tuesday), 23:59 PDT</td>
+        </tr>
+        <tr>
+          <td>Submission website (CMT):</td>
+          <td><a href="https://cmt3.research.microsoft.com/ODRUM2022">https://cmt3.research.microsoft.com/ODRUM2022</a></td>
+        </tr>
+      </table>
+      <br/>
+      <!-- Non-Proceedings Papers: Beyond April 8, we'll continue to accept submissions -- however they won't be eligible for proceedings (you can still present at the workshop). -->
+    <!-- </div> -->
+
+   
+
+    <h1> Organizers </h1>
+    <div class="container">
+      <div class="hosts">
+        <table class="person" align="center">
+          <tr>
+            <td class="person" style="text-align: center;">
+              <a href="https://luomancs.github.io/">
+                <img src="images/man.jpg" height="140px" width="140px" class="rounded-corner">
+              <br><b>Man Luo</b></a>
+              <br>ASU
+            </td>
+            <td class="person" style="text-align: center;">
+              <a href="https://tejas-gokhale.github.io/">
+                <img src="images/tg_okc.jpg" height="140px" width="140px" class="rounded-corner">
+              <br><b>Tejas Gokhale</b></a>
+              <br>ASU
+            </td>
+            <td class="person" style="text-align: center;">
+              <a href="https://www.public.asu.edu/~cbaral/">
+                <img src="images/cbaral.png" height="140px" width="140px" class="rounded-corner">
+                <br><b>Chitta Baral</b></a>
+                <br>ASU<br>
+            </td>
+            <td class="person" style="text-align: center;">
+              <a href="https://www.damienteney.info/">
+                <img src="images/damien.png" height="140px" width="140px" class="rounded-corner">
+                <br><b>Damien Teney</b></a>
+                <br>Idiap 
+            </td>
+            <td class="person" style="text-align: center;">
+              <a href="http://kennethmarino.com/">
+                <img src="images/kenny.PNG" height="140px" width="140px" class="rounded-corner">
+              <br><b>Kenneth Marino</b></a>
+              <br>Deepmind
+            </td>
+            
+            <td class="person" style="text-align: center;">
+              <a href="https://pratyay-banerjee.github.io/">
+                <img src="images/pratyay.jpg" height="140px" width="140px" class="rounded-corner">
+              <br><b>Pratyay Banerjee</b></a>
+              <br>ASU
+            </td>
+          </tr>
+          <tr>
+            <td class="person" style="text-align: center;">
+              <a href="https://adityasomak.github.io/">
+                <img src="images/somak.jpg" height="140px" width="140px" class="rounded-corner">
+              <br><b>Somak Aditya</b></a>
+              <br>IIT Kharagpur
+            </td>
+            <td class="person" style="text-align: center;">
+              <a href="https://tianlu-wang.github.io/">
+                <img src="images/tianlu.PNG" height="140px" width="140px" class="rounded-corner">
+              <br><b>Tianlu Wang</b></a>
+              <br>Meta AI Research
+            </td>
+            <td class="person" style="text-align: center;">
+              <a href="https://yezhouyang.engineering.asu.edu/">
+                <img src="images/yezhou.png" height="140px" width="140px" class="rounded-corner">
+              <br><b>Yezhou Yang</b></a>
+              <br>ASU
+            </td>   
+            <td class="person" style="text-align: center;">
+              <a href="https://www.public.asu.edu/~zfang29/">
+                <img src="images/jacob.jpg" height="140px" width="140px" class="rounded-corner">
+              <br><b>Zhiyuan Fang</b></a>
+              <br>ASU
+            </td>
+                     
+            <td class="person" style="text-align: center;">
+              <a href="https://zhegan27.github.io/">
+                <img src="https://zhegan27.github.io/images/Zhe_new.jpg" height="140px" width="140px" class="rounded-corner">
+              <br><b>Zhe Gan</b></a>
+              <br>Microsoft
+            </td>
+          </tr>
+        </table>
+
+      </div>
+      <hr>
+      Please contact Man Luo (<a href="mailto: mluo26@asu.edu">mluo26@asu.edu</a>) or Tejas Gokhale (<a href="mailto: tgokhale@asu.edu">tgokhale@asu.edu</a>) for additional details
+      <hr>
+      <i> The workshop is supported by NSF grant 2132724 as part of Research, Education, and Outreach activities. </i>
+      <hr>
+      <p align='right'><i>Website maintained by Tejas Gokhale </i> </p>
+
+  </div>
+<!-- </div> -->
+</body>
+</html>
