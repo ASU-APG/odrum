@@ -1,16 +1,17 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#000;
-	padding-bottom: 50px;
-	padding-top: 4px;
-	text-align: justify;
-	padding-left: 50px;
-	padding-right: 50px;
-	max-width: 1280px;
-	margin: 0 auto;
-
+	margin: 0;
+	overflow-x: hidden;
+	font-family: 'Open Sans', serif;
+/*	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+/*	font-family: "Roboto", "Avenir Next", Avenir, "Helvetica Neue", "Gill Sans", "Gill Sans MT", Helvetica, sans-serif;*/
+	font-size: 11pt;
+	font-weight: 400;
+	line-height: 1.;
+	color: #23241F;
+	text-align: left;
+	background-color: #d6dbdf;
 }
 }
 /* Container */
@@ -417,4 +418,37 @@ tr.person {
 	    break-inside:avoid;
 	}
 
+	}
+
+
+.clicker {
+width:100px;
+height:1em;
+background-color:white;
+outline:none;
+cursor:pointer;
+text-decoration: underline;
+}
+
+.hiddendiv{
+display:none;
+height:200px;
+background-color:white;
+}
+
+.clicker:focus + .hiddendiv{
+display:block;
+}
+
+.profile {
+	width:130px; 
+	font-size:0.8em;  
+	float:left; 
+	margin-left:20px; 
+	margin-top:10px; 
+	text-align:center;
+}
+
+.container {
+		min-width: 992px!important
 	}
