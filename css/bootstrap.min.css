@@ -195,7 +195,8 @@ svg {
 }
 
 table {
-	border-collapse: collapse
+/*	border-collapse: collapse*/
+font-size: 18px;
 }
 
 #table_id {
